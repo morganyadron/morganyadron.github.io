@@ -14,6 +14,8 @@
       line-height: 1.7;
       background: #fdf6e3; /* light tan */
       color: #3e2f1c;       /* deep brown text */
+      padding-left: 70px;
+      padding-right: 70px;
     }
 
     header {
@@ -75,9 +77,30 @@
       border-radius: 50%;
       box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     }
+
+    /* Sidebars */
+    .sidebar {
+      position: fixed;
+      top: 0;
+      width: 60px;
+      height: 100vh;
+      background-color: #4b2e2e; /* maroon-brown */
+      z-index: -1;
+    }
+
+    .sidebar.left {
+      left: 0;
+    }
+
+    .sidebar.right {
+      right: 0;
+    }
   </style>
 </head>
 <body>
+  <div class="sidebar left"></div>
+  <div class="sidebar right"></div>
+
   <header>
     <h1>Morgan David Yadron</h1>
     <nav class="navbar">
@@ -106,22 +129,20 @@
 
     <p>Thank you for stopping by, and feel free to browse through the CV, essays, talks, and updates on my work.</p>
 
-
-<img src="IMG_6802.jpg" alt="In front of Milan Cathedral, January, 2024" width="37%"> <img src="IMG_1430.HEIC" alt="In front of Vatican, December 2022" width="37%">
-    
+    <img src="IMG_6802.jpg" alt="In front of Milan Cathedral, January, 2024" width="37%"> 
+    <img src="IMG_1430.HEIC" alt="In front of Vatican, December 2022" width="37%">
   </section>
 
   <section id="cv" class="section">
     <h2>CV</h2>
- <li><strong>Curriculum Vitae</strong> - <a href="Morgan Y CV 2025.pdf">Read PDF</a></li>
+    <li><strong>Curriculum Vitae</strong> - <a href="Morgan Y CV 2025.pdf">Read PDF</a></li>
   </section>
 
   <section id="essays" class="section">
     <h2>Essays & Talks</h2>
     <ul>
-
       <p>This section features a curated selection of my academic writing, drawing from both philosophical and psychological disciplines. Topics range from classical thinkers like Aristotle and W.D. Ross to contemporary ethical dilemmas such as terrorism, moral responsibility, and game theory in financial markets. Many of these essays explore the overlap between human cognition and moral reasoning, with a focus on how ancient frameworks can still illuminate modern crises. Also included is a recorded talk addressing the problem of evil, where philosophical inquiry meets psychological insight.</p>
-     
+
       <li><strong>Game Theory and the Stock Market</strong> – <a href="Game Theory Morgan Y Final Paper.pdf">Read PDF</a></li>
       <li><strong>Disability in a Societal Context</strong> - <a href="Disability in Societal context.pdf">Read PDF</a></li>
       <li><strong>PTSD and its Implications within Terrorism</strong> - <a href="PTSD and implications within Terrorism.pdf">Read PDF</a></li>
@@ -141,14 +162,12 @@
     <p><strong>The Historicity of Christianity and Christian Apologetics: Talk Transcript, February, 2025</strong></p>
 
     <p>A live apologetics talk delivered in a pastoral fashion at the University of Arizona’s Newman Center, this presentation examines the historical, fundemental, and psychological foundations of Christianity. Using philosophical reasoning, early textual evidence, and cognitive science, it argues for the plausibility and truth of the Gospel accounts, culminating in a robust defense of Christ’s resurrection and its implications for human freedom and hope.</p>
-<a href="Christianity Apologetics Talk.docx">DOWNLOAD DOCX</a></li> 
-  
+    <a href="Christianity Apologetics Talk.docx">DOWNLOAD DOCX</a>
   </section>
 
   <section id="research" class="section">
     <h2>Research</h2>
     <ul>
-
       <p>An exploration and research proposal of the metaphysical tensions between libertarian free will and determinism, incorporating insights from neuroscience, compatibilism, and classical philosophy. Current thesis work and under development.</p>
       <li><strong>Free Will and Divine Determinism</strong> – <a href="https://drive.google.com/file/d/1_HExw3Lf2NtZiahST94vHM008U_TfEcU/view?usp=sharing">Research Proposal PDF</a></li>
     </ul>
@@ -173,15 +192,14 @@
     </ul>
   </section>
 
+  <img src="IMG_6800.jpg" alt="Christianity Talk1" width="37%"> 
+  <img src="IMG_6801.jpg" alt="Christianity Talk2" width="37%"> 
 
-  <img src="IMG_6800.jpg" alt="Christianity Talk1" width="37%"> <img src="IMG_6801.jpg" alt="Christianity Talk2" width="37%"> 
-
-  
   <section id="contact" class="section">
     <h2>Contact</h2>
     <p>Email: <a href="mailto:morganyadron@gmail.com">morganyadron@gmail.com</a></p>
     <p>Phone: (928)-273-2234 </p>
-    <p>Instagram: @catholicthinking </p>
+    <p>Instagram: <a href="https://www.instagram.com/catholicthinking/" target="_blank">@catholicthinking</a></p>
   </section>
 
   <footer>
